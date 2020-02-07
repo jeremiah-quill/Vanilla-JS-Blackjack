@@ -1,0 +1,234 @@
+* {
+    font-family: arial;
+}
+
+
+body {
+    margin: 25px auto;
+    max-width: 600px;
+    font: "Arial";
+    background-color: lightgray;
+}
+.gameContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+    text-align: center;
+    margin: 10px 0 10px;
+    /* height: 500px; */
+    background-color: green;
+}
+.userContainer {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+.hand1Container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.hand2Container {
+      display: none;
+      justify-content: center;
+      width: 50%;
+}
+.dealerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card, .deck {
+    height: 75px;
+    width: 50px;
+    border: 1px solid black;
+    font-size: .7em;
+    margin: 20px 0 20px;
+    padding: 5px;
+    font-family: "Arial";
+    border-radius: 3px;
+    background-color: ivory;
+}
+
+.fakeCard {
+    height: 75px;
+    width: 50px;
+    border: 1px solid black;
+    font-size: .7em;
+    margin: 20px 0 20px;
+    padding: 5px;
+    font-family: "Arial";
+    border-radius: 3px;
+    /* background-color: ivory; */
+}
+/* .counterContainer {
+    display: flex;
+    margin-bottom: 10px;
+} */
+.deckContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/* All Buttons */
+.btn {
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+} 
+.btn:hover {
+    cursor: pointer;
+    background-color: green;
+}
+.btn:active {
+    background-color: green;
+}
+.btn:focus {
+      outline: none;
+}
+
+
+
+/* Game Buttons */   
+.dealBtn {
+    display: flex;
+}
+.hitBtn {
+    display: none;
+}
+.standBtn {
+    display: none;
+}
+.doubleBtn {
+    display: none;
+}
+.hitBtn2 {
+    display: none;
+    justify-content: center;
+    width: 50%;
+}
+.standBtn2 {
+    display: none;
+    justify-content: center;
+    width: 50%;
+}
+.splitBtn {
+    display: none;
+}
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+}
+.gameBtns {
+    display: flex;
+    justify-content: center;
+}
+.splitGameBtns {
+    display: none;
+    justify-content: center;
+}
+  
+
+
+/* Wager Buttons */
+.wagerBtns {
+      display: flex;
+}
+.betBtn {
+    margin: 2px;
+}
+.wagerBtns {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+/* Bank */
+.moneyContainer > div {
+      display: flex;
+}
+.moneyContainer {
+      margin-top: 25px;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+}
+.bankrollDiv {
+      margin-bottom: 5px;
+}
+
+
+
+/* Scoring */
+.userScoreContainer2 {
+    display: none;
+    width: 50%;
+    justify-content: center;
+}
+.userScoreContainer1 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.userScoreContainer, .dealerScoreContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Game message */
+.statusContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.status {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.status2 {
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/* Show / Hide */
+.hide {
+    display: none;
+}
+.show {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
